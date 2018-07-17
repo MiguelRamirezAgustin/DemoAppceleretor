@@ -1,0 +1,77 @@
+".contenedorUsuario": {
+	backgroundColor:"#088A85"
+}
+
+"#viewconte":{
+	backgroundColor:"#088A85",
+	width:"90%",
+	height:"70%",
+	opacity:0.5,
+	top:"20%"
+}
+
+"#imgUsuario":{
+	backgroundImage:'/images/boy.png',
+	top:20,
+	width:130,
+	height:130
+}
+
+"#txfUsuario":{
+	width:"90%",
+	height:45,
+	borderRadius:15,
+	backgroundColor:"#04B4AE",
+    borderColor:"#E6E6E6",
+	color:"#000000",
+	top:"10%",
+	hintText:"Usuario",
+	maxLength:40,
+}
+
+"#txfPassword":{
+	width:"90%",
+	height:45,
+	borderRadius:15,
+	backgroundColor:"#04B4AE",
+    borderColor:"#E6E6E6",
+	color:"#000000",
+	top:"30%",
+	hintText:"Contraseña",
+	maxLength:25,
+	passwordMask:"true"
+}
+
+"#txfNombre":{
+	width:"90%",
+	height:45,
+	borderRadius:15,
+	backgroundColor:"#04B4AE",
+    borderColor:"#E6E6E6",
+	color:"#000000",
+	top:"50%",
+	hintText:"Nombre",
+	maxLength:40
+}
+
+"#txfN":{
+	width:"90%",
+	height:45,
+	borderRadius:15,
+	backgroundColor:"#04B4AE",
+    borderColor:"#E6E6E6",
+	color:"#000000",
+	top:"70%",
+	hintText:"vacio",
+	maxLength:25
+}
+
+"#btnRegistro":{
+	title:"Aceptar",
+	width:"70%",
+	height:45,
+	bottom:0,
+	borderRadius:15,
+	backgroundColor:"#04B4AE",
+    borderColor:"#E6E6E6"
+}

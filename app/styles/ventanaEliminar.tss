@@ -1,0 +1,33 @@
+".contenedorEliminar": {
+	layout:"vertical"
+}
+
+".superioricono":{
+  height:"10%",
+  width:"100%",
+  borderColor:"blue",
+  backgroundColor:"#088A85",
+  opacity:0.6,
+}
+
+".inferiorinforme":{
+  height:"90%",
+  width:"100%",
+  borderColor:"red",
+  backgroundColor:"#088A85",
+  opacity:0.6,
+}
+
+"#imgeliminaru":{
+	backgroundImage:'/images/cancelar1.png',
+	width:30,
+	height:30,
+	left:10
+}
+
+"#imgedatosusuario":{
+	backgroundImage:'/images/datos.png',
+	width:30,
+	height:30,
+	left:"50%"
+}

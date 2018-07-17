@@ -1,0 +1,32 @@
+<Alloy>
+	<Window class="contenedorGeneral" > 
+		<View id="viewsuperior">
+			<ImageView id="imgeliminar" onClick="eliminar"></ImageView>
+			<Label id="lbtitulo"></Label>
+			<ImageView id="imgagregar" onClick="nuevo"></ImageView> 
+		</View>
+        <View id="viewlistado">
+		 <TableView id="table">
+            <TableViewSection id="sectionusuario" >
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+                <TableViewRow title="Miguel"/>
+            </TableViewSection>
+        </TableView>
+		</View>
+	</Window>
+</Alloy>

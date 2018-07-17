@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="contenedorEliminar" > 
+		<View class="superioricono">
+		   <!--<Imageview id="imgeliminaru"></Imageview>-->
+		   <!--<Imageview id="imgedatosusuario"></Imageview>-->
+		</View>
+		<View class="inferiorinforme">
+          
+		</View>
+	</Window>
+</Alloy>

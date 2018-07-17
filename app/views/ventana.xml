@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="contenedorUsuario" > 
+		<View id="viewconte">
+			<TextField id="txfUsuario"></TextField>
+			<TextField id="txfPassword"></TextField>
+			<TextField id="txfNombre"></TextField>
+			<TextField id="txfN"></TextField>
+			<Button id="btnRegistro"></Button>	
+		</View>	
+		<ImageView id="imgUsuario"></ImageView>
+	</Window>
+</Alloy>

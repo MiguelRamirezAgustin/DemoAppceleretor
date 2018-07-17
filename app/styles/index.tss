@@ -1,0 +1,106 @@
+".container": {
+	backgroundImage:'/images/fondo1.jpg'
+	
+}
+
+"#img":{
+	backgroundImage:'/images/man.png',
+	height:130, 
+	width:130,
+	top: 40
+}
+
+"#vista":{
+	backgroundColor:"#088A85",
+	borderColor:"#E6E6E6",
+	borderRadius:20,
+	opacity:0.5,
+	height:400,
+	width:300,
+	layout:"vertical",
+	top:100
+}
+
+"#vistaUP":{
+	height:"35%",
+	width:"95%",
+	top:50
+}
+
+"#vistaL":{
+    top:2,
+	height:"50%",
+	width:"95%"
+}
+
+// vista para iconos
+"#vistaI":{
+    top:25,
+	height:"95%",
+	width:"15%",
+	layout:"vertical",
+	left:0,
+	borderColor:"red"
+}
+
+"#textusuario":{
+    backgroundColor:"#FFFFFF",
+    borderRadius:15,
+	color:"#000000",
+	height:45,
+	width:250,
+	color:"#04B4AE",
+	maxLength:25,
+	top:"20%",
+	hintText:"Usuario",
+	hintTextColor:"#088A85"
+}
+
+"#texpassword":{
+    backgroundColor:"#FFFFFF",
+    borderRadius:15,
+	color:"#000000",
+	height:45,
+	width:250,
+	color:"#04B4AE", 
+	maxLength:20,
+	top:"60%",
+	hintText:"Contraseña",
+	hintTextColor:"#088A85",
+	passwordMask:"true"
+	
+}
+
+"#bnt1":{
+	backgroundColor:"#04B4AE",
+    borderColor:"#E6E6E6",
+    borderRadius:15,
+	height:45,
+	width:240,
+	title:"Login",
+	color:"white",
+	top:"10%"
+}
+
+"#bnt2":{
+	backgroundColor:"#04B4AE",
+    borderColor:"#E6E6E6",
+	borderRadius:15,
+	height:45,
+	width:240,
+	title:"Olvido la contraseña",
+	color:"white",
+	top:"40%"
+}
+
+"#bnt3":{
+	backgroundColor:"#04B4AE",
+    borderColor:"#E6E6E6",
+	borderRadius:15,
+	height:45,
+	width:240,
+	title:"Registrarse",
+	color:"white",
+	top:"70%"
+}
+

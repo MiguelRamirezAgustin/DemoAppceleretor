@@ -1,0 +1,20 @@
+<Alloy>
+	<Window class="container" > 
+		<View id="vista">
+			<View id="vistaUP">
+			   <!-- <View id="vistaI">
+					<ImageView id="imgIU"></ImageView> 
+					<ImageView id="imgIS"></ImageView> 
+				</View>-->
+					<TextField id="textusuario"></TextField>
+					<TextField id="texpassword"></TextField>
+			</View>
+			<View id="vistaL">
+				<Button id="bnt1" onClick="llamada"></Button>
+				<Button id="bnt2" onClick="general"></Button>
+				<Button id="bnt3"></Button>
+			</View>
+	  	</View>
+		<ImageView id="img"></ImageView> 
+	</Window>
+</Alloy>
