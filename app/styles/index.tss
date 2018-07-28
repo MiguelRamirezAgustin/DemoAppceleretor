@@ -56,7 +56,7 @@
 	hintTextColor:"#088A85"
 }
 
-"#texpassword":{
+"#textpassword":{
     backgroundColor:"#FFFFFF",
     borderRadius:15,
 	color:"#000000",
@@ -88,7 +88,6 @@
 	borderRadius:15,
 	height:45,
 	width:240,
-	title:"Olvido la contraseña",
 	color:"white",
 	top:"40%"
 }
@@ -99,7 +98,6 @@
 	borderRadius:15,
 	height:45,
 	width:240,
-	title:"Registrarse",
 	color:"white",
 	top:"70%"
 }

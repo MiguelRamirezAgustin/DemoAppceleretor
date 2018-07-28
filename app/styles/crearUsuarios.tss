@@ -1,12 +1,10 @@
 ".contenedorUsuario": {
-	backgroundColor:"#088A85"
+	backgroundColor:"#04B4AE"
 }
 
 "#viewconte":{
-	backgroundColor:"#088A85",
 	width:"90%",
 	height:"70%",
-	opacity:0.5,
 	top:"20%"
 }
 
@@ -29,19 +27,6 @@
 	maxLength:40,
 }
 
-"#txfPassword":{
-	width:"90%",
-	height:45,
-	borderRadius:15,
-	backgroundColor:"#04B4AE",
-    borderColor:"#E6E6E6",
-	color:"#000000",
-	top:"30%",
-	hintText:"Contraseña",
-	maxLength:25,
-	passwordMask:"true"
-}
-
 "#txfNombre":{
 	width:"90%",
 	height:45,
@@ -49,12 +34,37 @@
 	backgroundColor:"#04B4AE",
     borderColor:"#E6E6E6",
 	color:"#000000",
-	top:"50%",
+	top:"25%",
 	hintText:"Nombre",
 	maxLength:40
 }
 
-"#txfN":{
+"#txfApellidos":{
+	width:"90%",
+	height:45,
+	borderRadius:15,
+	backgroundColor:"#04B4AE",
+    borderColor:"#E6E6E6",
+	color:"#000000",
+	top:"40%",
+	hintText:"Apellidos",
+	maxLength:25
+}
+
+"#txfPassword":{
+	width:"90%",
+	height:45,
+	borderRadius:15,
+	backgroundColor:"#04B4AE",
+    borderColor:"#E6E6E6",
+	color:"#000000",
+	top:"55%",
+	hintText:"Password",
+	maxLength:25,
+	passwordMask:"true"
+}
+
+"#txfPasswordconfirmacion":{
 	width:"90%",
 	height:45,
 	borderRadius:15,
@@ -62,16 +72,17 @@
     borderColor:"#E6E6E6",
 	color:"#000000",
 	top:"70%",
-	hintText:"vacio",
-	maxLength:25
+	hintText:"Password confirmacion",
+	maxLength:25,
+	passwordMask:"true"
 }
 
 "#btnRegistro":{
-	title:"Aceptar",
 	width:"70%",
 	height:45,
 	bottom:0,
 	borderRadius:15,
-	backgroundColor:"#04B4AE",
-    borderColor:"#E6E6E6"
+	backgroundColor:"#088A85",
+	borderColor:"#E6E6E6",
+	color:"#FFFFFF"
 }

@@ -7,12 +7,12 @@
 					<ImageView id="imgIS"></ImageView> 
 				</View>-->
 					<TextField id="textusuario"></TextField>
-					<TextField id="texpassword"></TextField>
+					<TextField id="textpassword"></TextField>
 			</View>
 			<View id="vistaL">
-				<Button id="bnt1" onClick="llamada"></Button>
-				<Button id="bnt2" onClick="general"></Button>
-				<Button id="bnt3"></Button>
+				<Button id="bnt1" title="Login" onClick="loginUsuario"></Button>
+				<Button id="bnt2" title="Olvido la contraseña" onClick="password"></Button>
+				<Button id="bnt3" title="Registrarse" onClick="nuevoUsuario"></Button>
 			</View>
 	  	</View>
 		<ImageView id="img"></ImageView> 

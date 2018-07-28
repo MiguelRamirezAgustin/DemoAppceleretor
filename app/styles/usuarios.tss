@@ -1,0 +1,25 @@
+".contenedorUsuarios": {
+	layout:"vertical"
+}
+
+".viewUsuarios":{
+  height:"9%",
+  width:"100%",
+  backgroundColor:"#04B4AE"
+}
+
+".inferiorinforme":{
+  height:"95%",
+  width:"100%",
+  backgroundColor:"#04B4AE"
+}
+
+"#table":{
+  color:"write",
+  zise:"20%", 
+  editable: true,
+  font:{
+      fontSize:"35%"
+    }
+}
+

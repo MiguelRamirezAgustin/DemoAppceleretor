@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="contenedorUsuarios" > 
+		<View class="viewUsuarios">
+			<Label id="labeluser"  title="USUARIOS ACTIVOS"></Label>
+		</View>
+		<View class="inferiorinforme">
+			<TableView id="table" editable="true">
+				
+			</TableView>
+		</View>
+	</Window>
+</Alloy>
+

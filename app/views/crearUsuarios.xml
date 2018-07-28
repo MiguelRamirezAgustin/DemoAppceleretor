@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="contenedorUsuario" > 
+		<View id="viewconte">
+			<TextField id="txfUsuario"></TextField>
+			<TextField id="txfNombre"></TextField>
+			<TextField id="txfApellidos"></TextField>
+			<TextField id="txfPassword"></TextField>
+			<TextField id="txfPasswordconfirmacion"></TextField>
+			<Button id="btnRegistro" title="Aceptar" onClick="usuarioNuevo"></Button>	
+		</View>	
+		<ImageView id="imgUsuario" onClick="listaUsuario"></ImageView>
+	</Window>
+</Alloy>
