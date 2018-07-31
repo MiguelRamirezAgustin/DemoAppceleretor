@@ -19,7 +19,9 @@ function listausuario(){
                 var row = Ti.UI.createTableViewRow({
                     left:"20",
                     title : e.users[i].first_name + ' ' + e.users[i].last_name,
-                    leftImage:'/images/user.png',            
+                    leftImage:'/images/user.png',
+                    //se crea parametro id 
+                    id: e.users[i].id           
                 });
                         
                 tableData.push(row);
@@ -34,8 +36,22 @@ function listausuario(){
 
     });
 }
+
 listausuario();
 
 $.table.addEventListener('click', function(e){
-    $.table.deleteRow(e.index);
+
+    // Cloud.Users.remove(function (e) {
+    //     if (e.success) {
+
+    //         alert('Success: Removed');
+    //     } else {
+    //         alert('Error:\n' +
+    //             ((e.error && e.message) || JSON.stringify(e)));
+    //     }
+    // });
+
+         $.table.deleteRow(e.index);
+       // Ti.API.info(JSON.stringify(e));
+        alert(e.source.id);
 });
