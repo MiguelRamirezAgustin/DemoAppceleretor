@@ -1,18 +1,11 @@
 <Alloy>
 	<Window class="contenedorGeneral" > 
 		<View id="viewsuperior">
-			<ImageView id="imgeliminar"></ImageView>
 			<Label id="lbtitulo"></Label>
-			<ImageView id="imgagregar" onClick="agregarnuevo"></ImageView> 
 		</View>
         <View id="viewlistado">
-		 <TableView id="table">
-            <TableViewSection id="sectionusuario" >
-                <TableViewRow title="Miguel"/>
-                <TableViewRow title="Miguel"/>
-                <TableViewRow title="Miguel"/>
-            </TableViewSection>
-        </TableView>
+			<Button id="btnfoto" onClick="tomaFoto" ></Button>
+			<Button></Button>
 		</View>
 	</Window>
 </Alloy>
